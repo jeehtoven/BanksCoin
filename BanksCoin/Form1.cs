@@ -16,5 +16,14 @@ namespace BanksCoin
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Program p = new Program();
+            int counter = 1;
+
+            while (counter != 0) p.GetRandomHexNumber(64);
+            
+        }
     }
 }
